@@ -10,9 +10,19 @@ const userInput = "hello";
 // }
 
 // another solution
-
 if (typeof userInput === "number" && !isNaN(userInput)) {
   console.log('True: Type', userInput, 'is number');
 } else {
   console.log('False: Type', userInput, 'is', typeof userInput);
+}
+
+
+// solution K'itt
+
+const userInput = 42;
+
+if (typeof userInput === 'number' && !isNaN(userInput)){
+    console.log(`T :${userInput} <- This is Number`);
+}else{
+    console.log(`F :${userInput} <-This is not number /is NaN`);
 }
