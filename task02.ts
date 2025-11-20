@@ -19,7 +19,7 @@ if (typeof userInput === "number" && !isNaN(userInput)) {
 
 // solution K'itt
 
-const userInput = 42;
+// const userInput = 42;
 
 if (typeof userInput === 'number' && !isNaN(userInput)){
     console.log(`T :${userInput} <- This is Number`);
